@@ -1,0 +1,36 @@
+nav {
+    background-color: $navbar;
+    box-shadow: 0px 5px 17px rgba(0, 0, 0, 0.418);
+
+    .container-fluid{
+    div{
+    ul{
+        li{
+            a{
+                font-weight: bold;
+                transition: 0.5s;
+                &:hover{
+                    color: #fffffff5;
+                }
+            }
+        }
+    }
+}
+}
+    .drop {
+        background-color: $navbar;
+        box-shadow: 0px 5px 17px rgba(0, 0, 0, 0.267);
+        li{
+            a{
+                &:hover {
+                    background-color: #de9ae8;
+                    color: #fffffff5;
+                }
+            }
+        }
+    }
+}
+
+.categoriaNotBold{
+    font-weight: normal;
+}

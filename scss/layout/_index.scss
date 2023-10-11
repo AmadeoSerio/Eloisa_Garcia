@@ -1,3 +1,110 @@
-main{
+main {
     background-color: $inicio;
+
+    .marca {
+        margin-top: 5rem;
+        text-align: center;
+
+        h1 {
+            font-size: 5rem;
+            font-weight: bolder;
+        }
+
+        p {
+            font-size: 2rem;
+            text-align: justify;
+        }
+    }
+
+    .padres {
+        margin-top: 3rem;
+        h2 {
+            text-align: center;
+            font-weight: bolder;
+            text-transform:uppercase;
+        }
+
+        h3,
+        p {
+            text-align: justify;
+            padding-left: 5rem;
+        }
+        h3{
+            font-weight: bold;
+            margin-top: 2rem;
+        }
+        p{
+            font-size: 1rem;
+            padding-right: 40rem;
+        }
+    }
+
+    .alumnos {
+        text-align: right;
+        padding-right: 5rem;
+        h3{
+            font-weight: bold;
+        }
+        p{
+            font-size: 1rem;
+            padding-left: 40rem;
+        }
+    }
+
+    .instituciones {
+        margin-top: 5rem;
+        text-align: left;
+        padding-left: 5rem;
+        padding-right: 40rem;
+
+        h2{
+            font-weight: bolder;
+            text-transform:uppercase;
+        }
+
+        p{
+            font-size: 1rem;
+        }
+    }
+
+    .docentes {
+        margin-top: 3rem;
+        text-align: right;
+        padding-right: 5rem;
+
+        h2{
+            font-weight: bolder;
+            text-transform:uppercase;
+        }
+        p{
+            font-size: 1rem;
+            padding-left: 40rem;
+        }
+    }
+
+    .comunitariaIndex {
+        margin-top: 5rem;
+        h4{
+            font-weight: bolder;
+            text-transform:uppercase;
+            font-size: 2rem;
+        }
+        p{
+            font-size: 1.2rem;
+        }
+    }
+
+    .contacto {
+        margin-top: 4rem;
+        padding-bottom: 2rem;
+        h5{
+            font-size: 2rem;
+            font-weight: bolder;
+            text-transform:uppercase;
+        }
+
+        p{
+            font-size: 1.2rem;
+        }
+    }
 }

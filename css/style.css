@@ -47,6 +47,99 @@ footer {
 main {
   background-color: #fbe192;
 }
+main .marca {
+  margin-top: 5rem;
+  text-align: center;
+}
+main .marca h1 {
+  font-size: 5rem;
+  font-weight: bolder;
+}
+main .marca p {
+  font-size: 2rem;
+  text-align: justify;
+}
+main .padres {
+  margin-top: 3rem;
+}
+main .padres h2 {
+  text-align: center;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+main .padres h3,
+main .padres p {
+  text-align: justify;
+  padding-left: 5rem;
+}
+main .padres h3 {
+  font-weight: bold;
+  margin-top: 2rem;
+}
+main .padres p {
+  font-size: 1rem;
+  padding-right: 40rem;
+}
+main .alumnos {
+  text-align: right;
+  padding-right: 5rem;
+}
+main .alumnos h3 {
+  font-weight: bold;
+}
+main .alumnos p {
+  font-size: 1rem;
+  padding-left: 40rem;
+}
+main .instituciones {
+  margin-top: 5rem;
+  text-align: left;
+  padding-left: 5rem;
+  padding-right: 40rem;
+}
+main .instituciones h2 {
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+main .instituciones p {
+  font-size: 1rem;
+}
+main .docentes {
+  margin-top: 3rem;
+  text-align: right;
+  padding-right: 5rem;
+}
+main .docentes h2 {
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+main .docentes p {
+  font-size: 1rem;
+  padding-left: 40rem;
+}
+main .comunitariaIndex {
+  margin-top: 5rem;
+}
+main .comunitariaIndex h4 {
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+main .comunitariaIndex p {
+  font-size: 1.2rem;
+}
+main .contacto {
+  margin-top: 4rem;
+  padding-bottom: 2rem;
+}
+main .contacto h5 {
+  font-size: 2rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+main .contacto p {
+  font-size: 1.2rem;
+}
 
 .fondoAccionC {
   background-color: #90bc99;

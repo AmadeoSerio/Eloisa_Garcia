@@ -1,3 +1,45 @@
 .fondoAcercaD{
     background-color: $acercaDeMi;
+
+    h1{
+        margin-top: 6rem;
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+
+    .acercaDeMi {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    background-color: #9892d4;
+    padding: 3rem;
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+
+    
+    .fotoContainer{
+        background-color: rgba(0, 0, 0, 0.929);
+        width: 65rem;
+        height: 20rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100%;
+    img{
+        height: 20rem;
+        border-radius: 40%;
+        padding: .5rem;
+    }
+    
+}
+.divTexto{
+    font-size: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+
+}
+
 }

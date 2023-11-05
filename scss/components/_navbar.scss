@@ -9,6 +9,7 @@ nav {
             a{
                 font-weight: bold;
                 transition: 0.5s;
+                font-size: 1.2rem;
                 &:hover{
                     color: #fffffff5;
                 }
@@ -27,6 +28,13 @@ nav {
                     color: #fffffff5;
                 }
             }
+        }
+    }
+    .navbar-brand{
+        transition: 0.5s;
+        font-weight: bolder;
+        &:hover{
+            color: #ff005184;
         }
     }
 }

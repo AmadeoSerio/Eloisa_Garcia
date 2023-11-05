@@ -1,0 +1,141 @@
+.contacto-titulo{
+    margin-top: 6rem;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    b{
+        color: #d6002ece;
+    }
+}
+
+.formulario {
+    padding-top: 1rem;
+    text-align: center;
+    margin-bottom: 3rem;
+
+    .contacto {
+        margin-top: -1rem;
+        padding: 2rem;
+        @include flexbox (column, center, center);
+        gap: .5rem;
+        background-color: #eeee;
+        border-radius: 2rem;
+        width: 38rem;
+        padding-bottom: 3rem;
+
+        input:-webkit-autofill {
+            -webkit-text-fill-color: black;
+            -webkit-box-shadow: 0 0 0px 1000px #00000000 inset;
+            transition: background-color 5000s ease-in-out 0s;
+        }
+
+        .formName {
+            color: black;
+            font-size: 1.3rem;
+            margin-left: -25rem;
+            margin-top: 1rem;
+        }
+
+        .formNameLabel {
+            width: 30rem;
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+            border-radius: 1rem;
+            padding: .5rem;
+            background-color: #00000000;
+            color: black;
+            border: solid #ea5a88;
+
+            &:focus-visible {
+                border: .2rem solid rgba(255, 217, 0, 0);
+            }
+        }
+
+        .formMail {
+            color: black;
+            font-size: 1.3rem;
+            margin-left: -19rem;
+            margin-top: .2rem;
+        }
+
+        .formMailLabel {
+            width: 30rem;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+            border-radius: 1rem;
+            padding: .5rem;
+            background-color: #00000000;
+            color: black;
+            border: solid #ea5a88;
+
+            &:focus-visible {
+                border: .2rem solid rgba(255, 217, 0, 0);
+            }
+        }
+
+        .formSubject {
+            color: black;
+            font-size: 1.3rem;
+            margin-left: -25rem;
+            margin-top: .2rem;
+        }
+
+        .formSubjectLabel {
+            width: 30rem;
+            font-weight: 1.1rem;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+            border-radius: 1rem;
+            padding: .5rem;
+            background-color: #00000000;
+            color: black;
+            border: solid #ea5a88;
+
+            &:focus-visible {
+                border: .2rem solid rgba(255, 217, 0, 0);
+            }
+        }
+
+        .formText {
+            color: black;
+            font-size: 1.3rem;
+            margin-left: -22rem;
+            margin-top: .2rem;
+        }
+
+        .formTextLabel {
+            width: 30rem;
+            font-weight: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+            border-radius: 1rem;
+            padding: .5rem;
+            background-color: #00000000;
+            color: black;
+            border: solid #ea5a88;
+
+            &:focus-visible {
+                border: .2rem solid rgba(255, 217, 0, 0);
+            }
+        }
+
+        .formEnviar {
+            font-size: 1.1rem;
+            @include flexbox (column, center, flex-end);
+            padding: .5rem 2rem;
+            border: none;
+            border-radius: 1rem;
+            background-color: #ea5a88;
+            transition: .6s;
+            margin-left: -21.8rem;
+            margin-top: 1rem;
+
+            &:hover {
+                background-color: #f884a9;
+            }
+        }
+    }
+}
+

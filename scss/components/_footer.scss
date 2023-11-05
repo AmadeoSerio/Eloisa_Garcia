@@ -1,4 +1,13 @@
 footer{
     background-color: $footer;
     // margin-top: auto;
+    p{
+        margin-top: 1rem;
+    }
+    ul{
+       li{
+        margin-top: -2rem;
+        margin-bottom: -2rem;
+       }
+    }
 }

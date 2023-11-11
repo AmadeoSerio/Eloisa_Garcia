@@ -5,6 +5,7 @@
         margin-top: 6rem;
         text-transform: uppercase;
         font-weight: bolder;
+        font-size: 2.2rem;
     }
 
     .acercaDeMi {
@@ -15,8 +16,9 @@
     gap: 3rem;
     background-color: #9892d4;
     padding: 3rem;
-    border-top-left-radius: 40%;
-    border-bottom-right-radius: 40%;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    margin-bottom: 4rem;
 
     
     .fotoContainer{
@@ -35,11 +37,9 @@
     
 }
 .divTexto{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding-right: 1.5rem;
 }
-
-
 }
 
 }

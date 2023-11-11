@@ -1,0 +1,678 @@
+@media only screen and (max-width:1281px) {
+    .indice {
+
+        .marca {
+
+            h1 {
+                font-size: 3rem;
+                margin-bottom: 2rem;
+            }
+
+            p {
+                font-size: 1rem;
+                margin-bottom: 1rem;
+            }
+        }
+
+        .padres {
+            margin-top: 1rem;
+
+            h2 {
+                padding-left: 8rem;
+                padding-top: 2rem;
+                color: #2c5ca9;
+                font-size: 1.3rem;
+            }
+
+            h3,
+            p {
+                padding-left: 8rem;
+            }
+
+            h3 {
+                margin-top: 1rem;
+                font-size: 1.3rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            div {
+                img {
+                    height: 15rem;
+                    padding-right: 10rem;
+
+                }
+            }
+        }
+
+        .alumnos {
+            margin-top: -4rem;
+            border-top-right-radius: 20%;
+
+            h3 {
+                font-size: 1.3rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            div {
+                img {
+                    height: 15rem;
+                }
+            }
+        }
+
+        .instituciones {
+            margin-top: -5rem;
+
+            h2 {
+                font-weight: bolder;
+                text-transform: uppercase;
+                padding-left: 10rem;
+                font-size: 1.3rem;
+            }
+
+            p {
+                font-size: 1rem;
+                padding-left: 10rem;
+            }
+
+            div {
+                img {
+                    height: 21rem;
+                    padding-right: 7rem;
+                }
+            }
+        }
+
+        .docentes {
+            border-bottom-left-radius: 85%;
+            margin-top: -5rem;
+
+
+            h2 {
+                font-size: 1.3rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            div {
+                img {
+                    height: 15rem;
+                    padding-left: 10rem;
+                    margin-bottom: 7rem;
+                }
+            }
+        }
+
+        .comunitariaContactame {
+            display: flex;
+            padding-bottom: 2rem;
+            margin-top: 3rem;
+            justify-content: space-between;
+            gap: 2rem;
+            margin-bottom: 1rem;
+
+            .comunitariaIndex {
+                background-color: #e7cd7f;
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 2rem;
+                border-top-right-radius: 40%;
+                border-bottom-left-radius: 40%;
+                border-bottom: #2c5ca985 1rem solid;
+
+                h4 {
+                    font-weight: bolder;
+                    text-transform: uppercase;
+                    font-size: 1.3rem;
+                    text-align: center;
+                }
+
+                p {
+                    font-size: 1rem;
+                    text-align: center;
+
+                }
+            }
+
+            .contacto {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                background-color: #e7cd7f;
+                padding: 2rem;
+                border-top-left-radius: 40%;
+                border-bottom-right-radius: 40%;
+                border-bottom: #2c5ca985 1rem solid;
+
+                h5 {
+                    font-size: 1.3rem;
+                    font-weight: bolder;
+                    text-transform: uppercase;
+                    text-align: center;
+
+                }
+
+                p {
+                    font-size: 1rem;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .servicios {
+        h1 {
+            margin-top: 5rem;
+            font-size: 1.8rem;
+        }
+
+        div {
+            p {
+                font-size: 1rem;
+            }
+        }
+    }
+
+    .fondoAcercaD {
+        h1 {
+            margin-top: 5rem;
+            font-size: 1.8rem;
+        }
+
+        .acercaDeMi {
+            .fotoContainer {
+                width: 42rem;
+                height: 15rem;
+
+                img {
+                    height: 15rem;
+                }
+            }
+
+            .divTexto {
+                font-size: 1rem;
+            }
+        }
+    }
+
+    .contacto-fondo {
+
+        .contacto-titulo {
+            margin-top: 5rem;
+            font-size: 1.8rem;
+            margin-bottom: 2rem;
+
+            b {
+                color: #d6002ece;
+            }
+        }
+
+        .formulario {
+            .contacto {
+                margin-top: -1rem;
+                padding: 2rem;
+                @include flexbox (column, center, center);
+                gap: .5rem;
+                background-color: #eeee;
+                border-radius: 2rem;
+                width: 28rem;
+                padding-bottom: 3rem;
+
+                input:-webkit-autofill {
+                    -webkit-text-fill-color: black;
+                    -webkit-box-shadow: 0 0 0px 1000px #00000000 inset;
+                    transition: background-color 5000s ease-in-out 0s;
+                }
+
+                .formName {
+                    color: black;
+                    font-size: .8rem;
+                    margin-left: -20rem;
+                    margin-top: 1rem;
+                }
+
+                .formNameLabel {
+                    width: 24rem;
+                    font-size: .8rem;
+                    margin-bottom: 1rem;
+                    border-radius: 1rem;
+                    padding: .5rem;
+                    background-color: #00000000;
+                    color: black;
+                    border: solid #ea5a88;
+
+                    &:focus-visible {
+                        border: .2rem solid rgba(255, 217, 0, 0);
+                    }
+                }
+
+                .formMail {
+                    color: black;
+                    font-size: .8rem;
+                    margin-left: -16rem;
+                    margin-top: .2rem;
+                }
+
+                .formMailLabel {
+                    width: 24rem;
+                    margin-bottom: 1rem;
+                    font-size: .8rem;
+                    border-radius: 1rem;
+                    padding: .5rem;
+                    background-color: #00000000;
+                    color: black;
+                    border: solid #ea5a88;
+
+                    &:focus-visible {
+                        border: .2rem solid rgba(255, 217, 0, 0);
+                    }
+                }
+
+                .formSubject {
+                    color: black;
+                    font-size: .8rem;
+                    margin-left: -20rem;
+                    margin-top: .2rem;
+                }
+
+                .formSubjectLabel {
+                    width: 24rem;
+                    font-weight: 2rem;
+                    margin-bottom: 1rem;
+                    font-size: .8rem;
+                    border-radius: 1rem;
+                    padding: .5rem;
+                    background-color: #00000000;
+                    color: black;
+                    border: solid #ea5a88;
+
+                    &:focus-visible {
+                        border: .2rem solid rgba(255, 217, 0, 0);
+                    }
+                }
+
+                .formText {
+                    color: black;
+                    font-size: .8rem;
+                    margin-left: -18rem;
+                    margin-top: .2rem;
+                }
+
+                .formTextLabel {
+                    width: 24rem;
+                    font-weight: 2rem;
+                    font-size: .8rem;
+                    border-radius: 1rem;
+                    padding: .5rem;
+                    background-color: #00000000;
+                    color: black;
+                    border: solid #ea5a88;
+
+                    &:focus-visible {
+                        border: .2rem solid rgba(255, 217, 0, 0);
+                    }
+                }
+
+                .formEnviar {
+                    font-size: .8rem;
+                    @include flexbox (column, center, flex-end);
+                    padding: .5rem 2rem;
+                    border: none;
+                    border-radius: 1rem;
+                    background-color: #ea5a88;
+                    transition: .6s;
+                    margin-left: -17rem;
+
+                    &:hover {
+                        background-color: #f884a9;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@media only screen and (max-width:997px) {
+    .indice {
+
+        .padres {
+
+            h2 {
+                margin-left: -7rem;
+            }
+
+
+            h3 {
+                margin-left: -7rem;
+            }
+
+            p {
+                margin-left: -7rem;
+            }
+
+            div {
+                img {
+                    height: 16rem;
+                    margin-left: 1rem;
+                }
+            }
+        }
+
+
+
+        .alumnos {
+            margin-top: -2rem;
+            border-top-right-radius: 5%;
+
+            div {
+                h3 {
+                    padding-right: 1rem;
+                }
+
+                p {
+                    padding-right: 1rem;
+                }
+            }
+
+
+            div {
+                img {
+                    height: 15rem;
+                    margin-left: -7rem;
+                }
+            }
+        }
+
+
+
+        .instituciones {
+            margin-top: -3rem;
+
+            h2 {
+                margin-left: -7rem;
+            }
+
+            h3 {
+                margin-left: -7rem;
+            }
+
+            p {
+                margin-left: -7rem;
+            }
+
+            div {
+                img {
+                    height: 20rem;
+                }
+            }
+        }
+
+
+        .docentes {
+            margin-top: -3rem;
+
+            div {
+                h2 {
+                    padding-right: 1rem;
+                }
+
+                h3 {
+                    padding-right: 1rem;
+                }
+
+                p {
+                    padding-right: 1rem;
+                }
+            }
+
+            div {
+                img {
+                    height: 15rem;
+                    margin-left: -7rem;
+                }
+            }
+        }
+
+        .comunitariaContactame {
+            flex-direction: column;
+
+            .comunitariaIndex {
+                width: 100%;
+            }
+
+            .contacto {
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width:721px) {
+    .indice {
+        .marca {
+            h1 {
+                font-size: 2rem;
+                margin-top: -1rem;
+            }
+
+            p {
+                font-size: .9rem;
+            }
+        }
+        .padres{
+            p{
+                text-align: left;
+            }
+        }
+
+        .alumnos {
+
+            div {
+                img {
+                    height: 12rem;
+                    margin-left: -11rem;
+                }
+            }
+        }
+
+
+
+        .instituciones {
+            margin-top: -2rem;
+        }
+
+
+        .docentes {
+            margin-top: -1rem;
+
+            div {
+                img {
+                    margin-left: -11rem;
+                }
+            }
+        }
+
+        .comunitariaContactame {
+            flex-direction: column;
+
+            .comunitariaIndex {
+                width: 100%;
+            }
+
+            .contacto {
+                width: 100%;
+            }
+        }
+    }
+
+    footer {
+        p {
+            font-size: 1rem;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            li {
+                font-size: 1rem;
+                font-weight: bolder;
+                margin: auto;
+            }
+
+            .whatsapp {
+                font-size: 3.3rem;
+                color: #019d25;
+                transition: .6s;
+                margin-bottom: -2rem;
+
+                &:hover {
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media only screen and (max-width:600px) {
+    .indice {
+        .marca {
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                font-size: .8rem;
+            }
+        }
+
+        .padres {
+            h2 {
+                font-size: 1rem;
+            }
+
+            h3 {
+                font-size: 1rem;
+            }
+
+            p {
+                font-size: .8rem;
+            }
+
+            div {
+                img {
+                    height: 10rem;
+                    padding-right: 1rem ;
+                }
+            }
+        }
+
+        .alumnos {
+            h2 {
+                font-size: 1rem;
+            }
+
+            h3 {
+                font-size: 1rem;
+            }
+
+            p {
+                font-size: .8rem;
+            }
+
+            div {
+                img {
+                    height: 10rem;
+                }
+            }
+        }
+
+        .instituciones {
+            padding-top: 3rem;
+            h2 {
+                font-size: 1rem;
+                padding-left: 8rem;
+            }
+
+            h3 {
+                font-size: 1rem;
+                padding-left: 8rem;
+            }
+
+            p {
+                font-size: .8rem;
+                padding-left: 8rem;
+            }
+
+            div {
+                img {
+                    height: 12rem;
+                    padding-right: 1rem ;
+
+                }
+            }
+        }
+
+        .docentes {
+            h2 {
+                font-size: 1rem;
+            }
+
+            h3 {
+                font-size: 1rem;
+            }
+
+            p {
+                font-size: .8rem;
+            }
+
+            div {
+                img {
+                    height: 10rem;
+                }
+            }
+        }
+
+        .comunitariaContactame {
+            .comunitariaIndex {
+                padding-bottom: 0rem;
+                h4{
+                    font-size: 1rem;
+                }
+                p{
+                    font-size: .8rem;
+                }
+            }
+
+            .contacto {
+                width: 100%;
+                padding-bottom: 0rem;
+
+                h5{
+                    font-size: 1rem;
+                }
+                p{
+                    font-size: .8rem;
+                }
+            }
+        }
+    }
+}

@@ -519,6 +519,66 @@
         }
     }
 
+
+    .servicios {
+    
+        h1 {
+            margin-top: 5rem;
+            font-size: 1.8rem;
+        }
+    
+        div {
+    padding: 1rem 5rem;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    margin-bottom: 4rem;
+    
+            p {
+                font-size: 1rem;
+            }
+        }
+    }
+
+
+    .fondoAcercaD{
+        h1{
+            margin-top: 5rem;
+            font-size: 1.8rem;
+        }
+    
+        .acercaDeMi {
+        gap: 1rem;
+        padding: 1rem;
+        border-top-left-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+        flex-direction: column;
+        
+        .fotoContainer{
+
+            width: 13rem;
+            height: 13rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100%;
+
+        img{
+            height: 13rem;
+            border-radius: 40%;
+            padding: .5rem;
+        }
+        
+    }
+    .divTexto{
+        font-size: 1.3rem;
+        padding-right: 1.5rem;
+    }
+    }
+    
+    }
+
+
+
     footer {
         p {
             font-size: 1rem;
@@ -675,4 +735,131 @@
             }
         }
     }
+
+.contacto-fondo{
+    .contacto-titulo{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .formulario {
+        .contacto {
+            margin-top: -1rem;
+            padding: 1rem;
+            gap: .1rem;
+            width: 19rem;
+    
+            .formName {
+                font-size: 1rem;
+                margin-left: .1px;            }
+    
+            .formNameLabel {
+                width: 15rem;
+                font-size: 1rem;
+                margin-bottom: .6rem;
+            }
+    
+            .formMail {
+                font-size: 1rem;
+                margin-left: .2px;
+            }
+    
+            .formMailLabel {
+                width: 15rem;
+                margin-bottom: .2rem;
+                font-size: 1rem;
+            }
+    
+            .formSubject {
+                color: black;
+                font-size: 1rem;
+                margin-left: .1px;
+                margin-top: .2rem;
+            }
+    
+            .formSubjectLabel {
+                width: 15rem;
+                font-weight: 1rem;
+                margin-bottom: 1rem;
+                font-size: 1rem;
+            }
+    
+            .formText {
+                color: black;
+                font-size: 1rem;
+                margin-left: .1px;
+                margin-top: .2rem;
+            }
+    
+            .formTextLabel {
+                width: 15rem;
+                font-weight: 2rem;
+                margin-bottom: 1rem;
+                font-size: 1rem;
+            }
+    
+            .formEnviar {
+                font-size: 1rem;
+                @include flexbox (column, center, flex-end);
+                margin-left: .1px;
+                margin-top: 1rem;
+    
+                &:hover {
+                    background-color: #f884a9;
+                }
+            }
+        }
+    }
+}
+
+.servicios {
+    
+    h1 {
+        margin-top: 5rem;
+        font-size: 1rem;
+    }
+
+    div {
+padding: 1rem 1rem;
+border-top-left-radius: 3rem;
+border-bottom-right-radius: 3rem;
+margin-bottom: 4rem;
+
+        p {
+            font-size: .8rem;
+            text-align: justify;
+        }
+    }
+}
+
+.fondoAcercaD{
+    h1{
+        margin-top: 5rem;
+        font-size: 1rem;
+    }
+
+    .acercaDeMi {   
+    .fotoContainer{
+
+        width: 10rem;
+        height: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100%;
+
+    img{
+        height: 10rem;
+        border-radius: 40%;
+        padding: .5rem;
+    }
+    
+}
+.divTexto{
+    font-size: .8rem;
+    text-align: justify;
+}
+}
+
+}
 }

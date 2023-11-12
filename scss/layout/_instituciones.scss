@@ -9,14 +9,22 @@
     }
 
     div {
-background-color: #b8a7cc;
-padding: 5rem 10rem;
-border-top-left-radius: 30%;
-border-bottom-right-radius: 30%;
-margin-bottom: 4rem;
+        padding: 5rem 10rem;
+        border-top-left-radius: 30%;
+        border-bottom-right-radius: 30%;
+        margin-bottom: 4rem;
 
         p {
             font-size: 1.3rem;
+            color: aliceblue;
         }
+    }
+
+    .instituciones-fondo {
+        background-color: #b8a7cc;
+        background: linear-gradient(to top, #000000d8, #000000d6), url("../../images/instituciones-fondo.jpg");
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-size: cover;
     }
 }

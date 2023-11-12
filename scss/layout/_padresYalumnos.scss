@@ -9,14 +9,23 @@
     }
 
     div {
-background-color: #b8a7cc;
-padding: 5rem 10rem;
-border-top-left-radius: 30%;
-border-bottom-right-radius: 30%;
-margin-bottom: 4rem;
+        background-color: #b8a7cc;
+        padding: 5rem 10rem;
+        border-top-left-radius: 30%;
+        border-bottom-right-radius: 30%;
+        margin-bottom: 4rem;
 
         p {
             font-size: 1.3rem;
+            color: aliceblue;
         }
+    }
+
+    .padres-alumnos-fondo {
+        background-color: #b8a7cc;
+        background: linear-gradient(to top, #000000d9, #000000c2), url("../../images/padres-hijos-fondo2.jpg");
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-size: cover;
     }
 }

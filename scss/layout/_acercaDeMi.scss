@@ -20,15 +20,21 @@
     border-bottom-right-radius: 30%;
     margin-bottom: 4rem;
 
+        background: linear-gradient(to top, #000000dc, #000000e1), url("../../images/sobre-mi-fondo.jpg");
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-size: cover;
+
     
     .fotoContainer{
-        background-color: rgba(0, 0, 0, 0.929);
-        width: 65rem;
+        background-color: rgba(0, 0, 0, 0.688);
+        width: 54rem;
         height: 20rem;
         display: flex;
         justify-content: center;
         align-items: center;
         border-radius: 100%;
+        border: #b2acface solid 5px;
     img{
         height: 20rem;
         border-radius: 40%;
@@ -39,6 +45,7 @@
 .divTexto{
     font-size: 1.3rem;
     padding-right: 1.5rem;
+    color: aliceblue;
 }
 }
 }

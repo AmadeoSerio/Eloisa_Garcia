@@ -280,7 +280,7 @@ footer ul .whatsapp:hover {
   border-top-left-radius: 30%;
   border-bottom-right-radius: 30%;
   margin-bottom: 4rem;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.862745098), rgba(0, 0, 0, 0.8823529412)), url("../../images/sobre-mi-fondo.jpg");
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7529411765), rgba(0, 0, 0, 0.7490196078)), url("../../images/sobre-mi-fondo.jpg");
   background-repeat: no-repeat;
   background-position-x: center;
   background-size: cover;
@@ -461,7 +461,7 @@ footer ul .whatsapp:hover {
 }
 .servicios .padres-alumnos-fondo {
   background-color: #b8a7cc;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.8509803922), rgba(0, 0, 0, 0.7607843137)), url("../../images/padres-hijos-fondo2.jpg");
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7529411765), rgba(0, 0, 0, 0.662745098)), url("../../images/padres-hijos-fondo2.jpg");
   background-repeat: no-repeat;
   background-position-x: center;
   background-size: cover;
@@ -488,7 +488,7 @@ footer ul .whatsapp:hover {
 }
 .servicios .instituciones-fondo {
   background-color: #b8a7cc;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.8470588235), rgba(0, 0, 0, 0.8392156863)), url("../../images/instituciones-fondo.jpg");
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6784313725), rgba(0, 0, 0, 0.6745098039)), url("../../images/instituciones-fondo.jpg");
   background-repeat: no-repeat;
   background-position-x: center;
   background-size: cover;
@@ -516,7 +516,7 @@ footer ul .whatsapp:hover {
 }
 .servicios .formacion-docente-fondo {
   background-color: #b8a7cc;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.8745098039), rgba(0, 0, 0, 0.831372549)), url("../../images/formacion-docente-fondo.jpg");
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7529411765), rgba(0, 0, 0, 0.7294117647)), url("../../images/formacion-docente-fondo.jpg");
   background-repeat: no-repeat;
   background-position-x: center;
   background-size: cover;

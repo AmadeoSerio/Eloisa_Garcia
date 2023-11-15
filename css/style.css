@@ -259,6 +259,28 @@ footer ul .whatsapp:hover {
 .fondoAccionC {
   background-color: #90bc99;
 }
+.fondoAccionC h1 {
+  margin-top: 6rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+  font-size: 2.2rem;
+}
+.fondoAccionC div {
+  background-color: #6d9074;
+  padding: 5rem 10rem;
+  border-top-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+  margin-bottom: 4rem;
+  background-color: #b8a7cc;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8078431373), rgba(0, 0, 0, 0.768627451)), url("../../images/comunitaria-fondo.jpg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: cover;
+}
+.fondoAccionC div p {
+  font-size: 1.3rem;
+  color: aliceblue;
+}
 
 .fondoAcercaD {
   background-color: #b2acfa;
@@ -649,11 +671,11 @@ footer ul .whatsapp:hover {
     font-size: 1rem;
     text-align: center;
   }
-  .servicios h1 {
+  .servicios h1, .fondoAccionC h1 {
     margin-top: 5rem;
     font-size: 1.8rem;
   }
-  .servicios div p {
+  .servicios div p, .fondoAccionC div p {
     font-size: 1rem;
   }
   .fondoAcercaD h1 {
@@ -859,13 +881,13 @@ footer ul .whatsapp:hover {
     width: 100%;
   }
 }
-@media only screen and (max-width: 721px) {
+@media only screen and (max-width: 820px) {
   .indice .marca h1 {
     font-size: 2rem;
     margin-top: -1rem;
   }
   .indice .marca p {
-    font-size: 0.9rem;
+    font-size: 1.3rem;
   }
   .indice .padres p {
     text-align: left;
@@ -892,23 +914,25 @@ footer ul .whatsapp:hover {
   .indice .comunitariaContactame .contacto {
     width: 100%;
   }
-  .servicios h1 {
+  .servicios h1, .fondoAccionC h1 {
     margin-top: 5rem;
     font-size: 1.8rem;
   }
-  .servicios div {
+  .servicios div, .fondoAccionC div {
     padding: 1rem 5rem;
     border-top-left-radius: 20%;
     border-bottom-right-radius: 20%;
     margin-bottom: 4rem;
   }
-  .servicios div p {
+  .servicios div p, .fondoAccionC div p {
     font-size: 1rem;
     line-height: 1.6rem;
   }
   .servicios .instituciones-fondo,
   .servicios .padres-alumnos-fondo,
-  .servicios .formacion-docente-fondo {
+  .servicios .formacion-docente-fondo, .fondoAccionC .instituciones-fondo,
+  .fondoAccionC .padres-alumnos-fondo,
+  .fondoAccionC .formacion-docente-fondo {
     background-attachment: fixed;
     padding-top: 1.5rem;
   }
@@ -964,7 +988,7 @@ footer ul .whatsapp:hover {
     color: black;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 720px) {
   .indice .marca h1 {
     font-size: 1.5rem;
   }
@@ -1110,17 +1134,17 @@ footer ul .whatsapp:hover {
   .contacto-fondo .formulario .contacto .formEnviar:hover {
     background-color: #f884a9;
   }
-  .servicios h1 {
+  .servicios h1, .fondoAccionC h1 {
     margin-top: 5rem;
     font-size: 1rem;
   }
-  .servicios div {
+  .servicios div, .fondoAccionC div {
     padding: 1rem 1rem;
     border-top-left-radius: 3rem;
     border-bottom-right-radius: 3rem;
     margin-bottom: 4rem;
   }
-  .servicios div p {
+  .servicios div p, .fondoAccionC div p {
     font-size: 1rem;
     text-align: justify;
   }

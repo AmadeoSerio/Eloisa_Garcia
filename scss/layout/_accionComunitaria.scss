@@ -1,3 +1,29 @@
 .fondoAccionC {
     background-color: $accionComunitaria;
+
+    h1 {
+        margin-top: 6rem;
+        font-weight: bolder;
+        margin-bottom: 1rem;
+        font-size: 2.2rem;
+    }
+
+    div {
+        background-color: #6d9074;
+        padding: 5rem 10rem;
+        border-top-left-radius: 30%;
+        border-bottom-right-radius: 30%;
+        margin-bottom: 4rem;
+
+        background-color: #b8a7cc;
+        background: linear-gradient(to top, #000000ce, #000000c4), url("../../images/comunitaria-fondo.jpg");
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-size: cover;
+
+        p {
+            font-size: 1.3rem;
+            color: aliceblue;
+        }
+    }
 }
